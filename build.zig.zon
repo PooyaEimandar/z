@@ -1,0 +1,14 @@
+.{
+    .name = .z,
+    .version = "0.1.0",
+    .fingerprint = 0x62d277afe33cbeb9,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .zigcoro = .{ .url = "https://github.com/rsepassi/zigcoro/archive/refs/heads/main.tar.gz", .hash = "zigcoro-0.0.0-_zKfQ6M_AQB_vVdJnIBtkjUvYldFsHT2XEJq8LRvfAn5" },
+    },
+    .paths = .{
+        "src/",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
